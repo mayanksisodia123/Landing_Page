@@ -1,0 +1,142 @@
+body{
+    font-family: Roboto;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: #1f2937;
+}
+
+.header .header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.header .header-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    color: #f9faf8;
+}
+.Container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.Intro-wrap img {
+    width: 350px;
+}
+
+.Intro-wrap {
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 60px;
+    flex: 0 1 auto;
+}
+
+.intro {
+    width: 500px;
+}
+
+.Intro-wrap .Intro-Title {
+    margin-bottom: 25px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.intro-wrap .content {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+
+.trip-wrap {
+    padding-top: 40px;
+    margin-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.trip-heading {
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #1f2937;
+    display: flex;
+}
+
+.trip-heading-left {
+    flex: 1 2 100px;
+}
+
+.trip-heading-content {
+    padding-left: 25px;
+    flex: 0 0 500px;
+}
+
+.trip-heading-right {
+    flex: 2 1 100px;
+}
+
+.trip-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 60px;
+}
+
+.trip-image img {
+    width: 250px;
+    height: 187.5px;
+}
+
+.trip-image {
+    max-width: 250px;
+}
+
+.quote {
+    text-align: center;
+    padding: 150px;
+    background: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.call-to-action-wrapper {
+    padding: 75px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-content {
+    padding: 25px;
+    gap: 50px;
+    background: #afcdfb;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    padding: 20px;
+    background: #1f2937;
+    color: #f9faf8;
+}
