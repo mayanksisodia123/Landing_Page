@@ -68,14 +68,14 @@ ul{
 }
 
 
-.trip-wrap {
+.spots-wrap {
     padding-top: 40px;
     margin-bottom: 75px;
     display: flex;
     flex-direction: column;
 }
 
-.trip-heading {
+.spots-heading {
     margin-bottom: 25px;
     font-size: 28px;
     font-weight: bold;
@@ -83,20 +83,20 @@ ul{
     display: flex;
 }
 
-.trip-heading-left {
+.spots-heading-left {
     flex: 1 2 100px;
 }
 
-.trip-heading-content {
+.spots-heading-content {
     padding-left: 25px;
     flex: 0 0 500px;
 }
 
-.trip-heading-right {
+.spots-heading-right {
     flex: 2 1 100px;
 }
 
-.trip-content {
+.spots-content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -104,12 +104,12 @@ ul{
     gap: 60px;
 }
 
-.trip-image img {
+.spots-image img {
     width: 250px;
     height: 187.5px;
 }
 
-.trip-image {
+.spots-image {
     max-width: 250px;
 }
 
